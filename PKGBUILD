@@ -2,7 +2,7 @@
 pkgname=postier-bin
 appname=postier
 pkgver=2.0.0
-pkgrel=2
+pkgrel=3
 pkgdesc="API client without bloat"
 arch=('x86_64')
 url="https://github.com/results-may-vary-org/postier"
@@ -20,5 +20,5 @@ package() {
   tar -xz -f data.tar.gz -C "${pkgdir}"
 
   # Fix permissions
-  chmod 755 "${pkgdir}/usr/bin/tape"
+  chmod 755 "${pkgdir}/usr/bin/postier"
 }
