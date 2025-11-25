@@ -11,7 +11,7 @@ depends=('glibc' 'gtk3' 'webkit2gtk-4.1' 'desktop-file-utils' 'hicolor-icon-them
 options=('!strip' '!emptydirs')
 install=${pkgname}.install
 source_x86_64=("${url}/releases/download/v"${pkgver}"/"${appname}"_"${pkgver}"_amd64.deb")
-sha256sums_x86_64=('b077b708b427b2b5e3b93d62562c903891a47f48d80c01651e8c67dd5642e63a')
+sha256sums_x86_64=('190fe17a7ee0d7e5058af08647b55c4da03916ef7d5368522a51f57f598efbec')
 package() {
   # Extract the deb package
   ar x "${appname}_${pkgver}_amd64.deb"

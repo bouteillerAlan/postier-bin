@@ -14,6 +14,6 @@ pkgbase = postier-bin
 	options = !strip
 	options = !emptydirs
 	source_x86_64 = https://github.com/results-may-vary-org/postier/releases/download/v2.0.0/postier_2.0.0_amd64.deb
-	sha256sums_x86_64 = b077b708b427b2b5e3b93d62562c903891a47f48d80c01651e8c67dd5642e63a
+	sha256sums_x86_64 = 190fe17a7ee0d7e5058af08647b55c4da03916ef7d5368522a51f57f598efbec
 
 pkgname = postier-bin
